@@ -50,7 +50,7 @@ export default function Page() {
 				</div>
 				<div className={'bg-white m-auto w-full rounded-3xl flex flex-col gap-5'}>
 					<div className={'flex flex-col gap-5'}>
-						<h1 className="text-4xl">F&B</h1>
+						<h1 className="text-4xl">Camila & Helder</h1>
 					</div>
 					<div className={'flex flex-col md:flex-row gap-10 justify-between'}>
 						<div>
