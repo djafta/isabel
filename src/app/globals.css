@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.b5 {
+    min-width: 176mm;
+    min-height: 250mm;
+    max-width: 176mm;
+    max-height: 250mm;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashed-border {
+    background-image: repeating-linear-gradient(0deg, #333333, #333333 30px, transparent 30px, transparent 40px, #333333 40px), repeating-linear-gradient(90deg, #333333, #333333 30px, transparent 30px, transparent 40px, #333333 40px), repeating-linear-gradient(180deg, #333333, #333333 30px, transparent 30px, transparent 40px, #333333 40px), repeating-linear-gradient(270deg, #333333, #333333 30px, transparent 30px, transparent 40px, #333333 40px);
+    background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px;
+    background-position: 0 0, 0 0, 100% 0, 0 100%;
+    background-repeat: no-repeat;
+}
